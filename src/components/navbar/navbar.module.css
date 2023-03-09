@@ -1,0 +1,129 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+}
+.top_nav {
+  font-family: "Courier Prime", monospace;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2713a4;
+  padding: 0.5678125em 2.27125em 0.5678125em 2.27125em;
+  font-size: 0.81625em;
+  color: white;
+}
+select {
+  font-family: "Courier Prime", monospace;
+  appearance: none;
+  min-width: 6em;
+  height: fit-content;
+  background-image: url(../../assets/down-arrow.svg);
+  background-position: 90%;
+  background-repeat: no-repeat;
+  background-size: 0.7em;
+  display: flex;
+  align-items: center;
+  background-color: #040115;
+  border-radius: 0.263125em;
+  font-style: normal;
+  padding: 0.3125em 0em 0.2125em 0.41625em;
+  color: #39effb;
+}
+a:link {
+  color: white;
+  text-decoration: none;
+}
+.account {
+  display: flex;
+  align-items: center;
+}
+.divider {
+  min-width: 1px;
+  margin: 0em 0.5em 0em 0.5em;
+  height: 1.645625em;
+  background-color: white;
+}
+.bottom_nav {
+  display: grid;
+  grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  background-color: #040115;
+  color: white;
+  padding: 0.5678125em 2em 0.5678125em 2em;
+}
+#logo {
+  grid-column: 1/3;
+}
+#links {
+  grid-column: 4/7;
+}
+.search {
+  display: flex;
+  align-items: center;
+  grid-column: 9/10;
+}
+#logo {
+  font-family: "Courier Prime", monospace;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 0.833125em;
+  width: max-content;
+  background-color: #2713a4;
+  border-radius: 0.31125em;
+}
+#gaming {
+  border: 1px solid black;
+  padding: 0.395625em 0.9375em 0.395625em 0.9375em;
+}
+img {
+  width: 4.764375em;
+}
+ul {
+  font-family: Inter;
+  display: flex;
+  justify-content: center;
+  gap: 3.375em;
+  list-style: none;
+  color: #39effb;
+}
+.search div:nth-child(1) {
+  width: 3em;
+  height: 3em;
+  background-image: url(../../assets/search-icon.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 1.3em;
+}
+.search div:nth-child(2) {
+  width: 3em;
+  height: 3em;
+  background-image: url(../../assets/user-icon.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 1em;
+}
+.search div:nth-child(3) {
+  min-width: 1px;
+  margin: 0em 0.5em 0em 0.5em;
+  background-color: white;
+  height: 2.5em;
+}
+.search div:nth-child(4) {
+  width: 3em;
+  height: 3em;
+  background-image: url(../../assets/shopping-cart.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 1.3em;
+}
+.search div:nth-child(5) {
+  width: 2.27em;
+  height: 1.27em;
+  border-radius: 0.2225em;
+  margin-left: 0.5em;
+  background-color: #2713a4;
+  align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

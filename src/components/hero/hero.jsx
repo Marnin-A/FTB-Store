@@ -3,7 +3,7 @@ import styles from "./hero.module.css";
 
 export const Hero = () => {
   return (
-    <div className={styles.hero}>
+    <section className={styles.hero}>
       <div className={styles.hero_left}>
         <div className={styles.hero_title}>
           <span>FOR </span> <span>THE</span>
@@ -19,6 +19,6 @@ export const Hero = () => {
           game devices for like-minded companies.
         </div>
       </div>
-    </div>
+    </section>
   );
 };

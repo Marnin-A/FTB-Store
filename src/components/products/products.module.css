@@ -1,0 +1,67 @@
+.products {
+  display: flex;
+  flex-direction: column;
+  background-color: #d9d9d9;
+}
+.products_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.16625em 2.97875em;
+}
+.products_header div:nth-child(1) {
+  color: #040115;
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.78118125em;
+  line-height: 2.145625em;
+}
+.products_header div:nth-child(2) {
+  display: flex;
+  align-items: center;
+  font-family: "Courier Prime";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.816375em;
+  line-height: 0.91625em;
+  color: #2713a4;
+}
+
+#arrow {
+  height: 1em;
+  margin-bottom: 3px;
+}
+.items {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#controller {
+  width: 16.65375em;
+  margin-bottom: 0.5625em;
+}
+.card span:nth-child(2) {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.335625em;
+  line-height: 1.60375em;
+  text-align: center;
+  color: #040115;
+}
+.card span:nth-child(3) {
+  font-family: "Courier Prime";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.81625em;
+  line-height: 0.9225em;
+  display: flex;
+  align-items: center;
+  color: #2713a4;
+  margin-left: 10%;
+}

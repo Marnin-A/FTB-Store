@@ -16,6 +16,7 @@ function App() {
       <Hero />
       <Featured />
       <Products />
+      <Story />
     </div>
   );
 }

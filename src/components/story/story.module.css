@@ -1,0 +1,64 @@
+.story {
+  /* position: relative; */
+  height: max-content;
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 100%;
+}
+#bg_img {
+  width: 100%;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row: 1;
+}
+.text {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  justify-content: center;
+  align-items: center;
+  grid-row: 1;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.text div:nth-child(1) {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.116875em;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  color: #d9d9d9;
+  grid-column: 2;
+  grid-row-start: 3;
+  grid-row-end: 3;
+}
+.text div:nth-child(2) {
+  grid-column: 2;
+  grid-row-start: 6;
+  text-align: center;
+  font-family: "Courier Prime";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.89em;
+  text-align: center;
+  color: #d9d9d9;
+}
+.text button:nth-child(3) {
+  padding: 0.489375em 1.51395625em;
+  background: #d9d9d9;
+  border-radius: 0.355625em;
+  width: max-content;
+  grid-column: 2;
+  grid-row-start: 8;
+  font-family: "Courier Prime";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.8675em;
+  border: none;
+  margin: auto;
+  color: #2713a4;
+}

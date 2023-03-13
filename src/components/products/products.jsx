@@ -13,7 +13,7 @@ export const Products = () => {
     { img: img4, name: "FTB 14 REDBULL express" },
   ];
   return (
-    <section className={styles.products}>
+    <main className={styles.products}>
       <div className={styles.products_header}>
         <div>OUR Gamepad BLENDS</div>
         <div>
@@ -25,7 +25,7 @@ export const Products = () => {
           return <Card img={element.img} name={element.name} />;
         })}
       </div>
-    </section>
+    </main>
   );
 };
 

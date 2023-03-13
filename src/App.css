@@ -13,4 +13,5 @@
 /*Change scrollbar handle colour */
 ::-webkit-scrollbar-thumb {
   background: #2713a4;
+  border: 0.1px solid rgb(66, 75, 238);
 }

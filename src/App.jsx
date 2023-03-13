@@ -17,6 +17,8 @@ function App() {
       <Featured />
       <Products />
       <Story />
+      <Banner />
+      <Footer />
     </div>
   );
 }

@@ -1,0 +1,46 @@
+.banner {
+  display: grid;
+  grid-template-rows: 15% 10% 15% 15% 15% 15% 15%;
+  align-items: center;
+  justify-content: center;
+  background-color: #2713a4;
+  padding-bottom: 4.60375em;
+}
+#logoImg {
+  width: 27.375em;
+  margin: 0%;
+  grid-row-start: 3;
+}
+.ftbTitle {
+  border: 3px solid black;
+  color: white;
+  grid-row-start: 5;
+  margin-left: -3%;
+  padding: 0.57875em 0.72875em;
+  font-family: "Courier Prime";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.316625em;
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+}
+.banner div:nth-child(3) {
+  font-family: "Courier Prime";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2023em;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 3%;
+  grid-row-start: 6;
+}
+.banner div:nth-child(4) {
+  font-family: "Courier Prime";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2023em;
+  color: #040115;
+  text-align: center;
+  grid-row-start: 7;
+}
